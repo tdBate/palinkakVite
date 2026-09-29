@@ -11,7 +11,7 @@ function Tabla(props: TablaProps) {
     console.log(tablaLista);
 
     return (<>
-        <table>
+        <table className="table table-bordered">
             {tablaLista.map(row => (
                 <tr>{row.map(cell => (<td>{cell}</td>))}</tr>
             ))}

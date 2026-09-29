@@ -5,14 +5,16 @@ interface ListaCardProps {
 }
 
 function ListaCard(props: ListaCardProps) {
+    const classLi = `list-group ${props.numbered ? "list-group-numbered" : ""}`
+
     return (<>
         <h2>{props.title}</h2>
 
-        <ul>
+        <ol className={classLi}>
             {props.list.map(item => (
-                <li>{item}</li>
+                <li className="list-group-item">{item}</li>
             ))}
-        </ul>
+        </ol>
     </>)
 }
 

@@ -5,13 +5,13 @@ interface BevezetoProps {
 
 function BevezetoResz(props: BevezetoProps) {
     return (<>
-        <div>
-            <div>
-                <h1>{props.title}</h1>
+        <div className="card">
+            <div className="card-header">
+                {props.title}
             </div>
 
-            <div>{props.children} </div>
-        </div>
+            <div className="card-body">{props.children} </div>
+        </div >
     </>)
 }
 

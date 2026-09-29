@@ -6,7 +6,15 @@ import Tabla from "./components/Tabla";
 
 function App() {
   return (<>
-    <Fejlec></Fejlec>
+
+    <div className="container">
+      <div className="row">
+        <div className="col-sm-12">
+          <Fejlec></Fejlec>
+        </div>
+      </div>
+    </div>
+
     <BevezetoResz title="Mit érdemes tudni a pálinkáról?">
 
       <p>
