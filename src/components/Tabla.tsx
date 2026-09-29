@@ -1,5 +1,3 @@
-import ListaCard from "./ListaCard"
-
 interface TablaProps {
     lista: string[]
 }

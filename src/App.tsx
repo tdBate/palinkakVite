@@ -1,6 +1,7 @@
 import BevezetoResz from "./components/BevezetoResz";
 import Fejlec from "./components/Fejlec";
 import ListaCard from "./components/ListaCard";
+import PictureCard from "./components/PictureCard";
 import Tabla from "./components/Tabla";
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
     <ListaCard title="Gyakori alapanyagok" list={["alma", "körte", "asdp"]} numbered={false}></ListaCard>
 
     <Tabla lista={["a", "b", "c", "d", "e", "f", "g"]}></Tabla>
+
+    <PictureCard title="Segítség" img_source="/images/birsalma.jpg" text="Haza akarok menni"></PictureCard>
   </>)
 }
 
