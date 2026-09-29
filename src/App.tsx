@@ -1,6 +1,7 @@
 import BevezetoResz from "./components/BevezetoResz";
 import Fejlec from "./components/Fejlec";
 import ListaCard from "./components/ListaCard";
+import Tabla from "./components/Tabla";
 
 function App() {
   return (<>
@@ -27,6 +28,8 @@ function App() {
     </BevezetoResz>
 
     <ListaCard title="Gyakori alapanyagok" list={["alma", "körte", "asdp"]} numbered={false}></ListaCard>
+
+    <Tabla lista={["a", "b", "c", "d", "e", "f", "g"]}></Tabla>
   </>)
 }
 
